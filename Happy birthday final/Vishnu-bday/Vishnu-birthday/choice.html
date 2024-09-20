@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+      .container {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .header_text {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+
+      .buttons {
+        margin-bottom: 50px; /* Move buttons higher */
+      }
+
+      .btn {
+        font-size: 1.5rem; /* Make buttons bigger */
+        padding: 15px 30px;
+        margin: 10px;
+        cursor: pointer;
+      }
+
+      .gif_container img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 50px; /* Space between buttons and GIF */
+      }
+    </style>
+    <title>What Next?</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">What do you want to do now?</h1>
+      </div>
+      <div class="buttons">
+        <button class="btn" onclick="goToOption1()">Watch a video</button>
+        <button class="btn" onclick="goToOption2()">Click to find out</button>
+        <button class="btn" onclick="goToOption3()">Surprise !!</button>
+      </div>
+
+      <!-- GIF added at the bottom -->
+      <div class="tenor-gif-embed" data-postid="8865753551812795597" data-share-method="host" data-aspect-ratio="1.74126" data-width="100%"><a href="https://tenor.com/view/dudu-and-bubu-eating-dudu-and-bubu-cake-dudu-and-bubu-hay-nako-reika-gif-8865753551812795597">Dudu And Bubu Eating Dudu And Bubu Cake GIF</a>from <a href="https://tenor.com/search/dudu+and+bubu+eating-gifs">Dudu And Bubu Eating GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    </div>
+
+    <script>
+      function goToOption1() {
+        window.location.href = "yes.html"; // Navigates to the video page
+      }
+
+      function goToOption2() {
+        window.location.href = "envelope.html"; // Navigates to a surprise page
+      }
+
+      function goToOption3() {
+        window.location.href = "fun.html"; // Navigates to a fun page
+      }
+    </script>
+  </body>
+</html>

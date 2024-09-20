@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./styleforenvelope.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Babeeee,</strong>
+                        <p>
+                            Yk everything, Ik i don't have to say anything, you came into my life when i wasn't looking for love, you showed me what love is and how beautiful it is to be loved. I'm waiting to hug you one again, find peace in your arms and forget everything else..If i am with you i feel so tensionfree..you'll take care of everything. The way you hold my hands so i won't slip on rocks...babee you the bestttt.I miss you soo much babe but I love you more than that. Happy birthday once again cutieee 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
